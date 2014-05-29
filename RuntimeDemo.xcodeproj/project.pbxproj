@@ -14,7 +14,7 @@
 		04E6DBCE1936D10D0084FD20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBCD1936D10D0084FD20 /* main.m */; };
 		04E6DBD21936D10D0084FD20 /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */; };
 		04E6DBD51936D10E0084FD20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E6DBD31936D10E0084FD20 /* Main.storyboard */; };
-		04E6DBD81936D10E0084FD20 /* RDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBD71936D10E0084FD20 /* RDFirstViewController.m */; };
+		04E6DBD81936D10E0084FD20 /* RDAddPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */; };
 		04E6DBDB1936D10E0084FD20 /* RDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */; };
 		04E6DBDD1936D10E0084FD20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6DBDC1936D10E0084FD20 /* Images.xcassets */; };
 		04E6DBE41936D10E0084FD20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6DBE31936D10E0084FD20 /* XCTest.framework */; };
@@ -44,8 +44,8 @@
 		04E6DBD01936D10D0084FD20 /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
 		04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
 		04E6DBD41936D10E0084FD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04E6DBD61936D10E0084FD20 /* RDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDFirstViewController.h; sourceTree = "<group>"; };
-		04E6DBD71936D10E0084FD20 /* RDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDFirstViewController.m; sourceTree = "<group>"; };
+		04E6DBD61936D10E0084FD20 /* RDAddPropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAddPropertiesViewController.h; sourceTree = "<group>"; };
+		04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAddPropertiesViewController.m; sourceTree = "<group>"; };
 		04E6DBD91936D10E0084FD20 /* RDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDSecondViewController.h; sourceTree = "<group>"; };
 		04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDSecondViewController.m; sourceTree = "<group>"; };
 		04E6DBDC1936D10E0084FD20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				04E6DBD31936D10E0084FD20 /* Main.storyboard */,
 				04E6DBD01936D10D0084FD20 /* RDAppDelegate.h */,
 				04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */,
-				04E6DBD61936D10E0084FD20 /* RDFirstViewController.h */,
-				04E6DBD71936D10E0084FD20 /* RDFirstViewController.m */,
+				04E6DBD61936D10E0084FD20 /* RDAddPropertiesViewController.h */,
+				04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */,
 				04E6DBD91936D10E0084FD20 /* RDSecondViewController.h */,
 				04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */,
 				04E6DBC81936D10D0084FD20 /* Supporting Files */,
@@ -233,7 +233,7 @@
 				04E6DBDB1936D10E0084FD20 /* RDSecondViewController.m in Sources */,
 				04E6DBD21936D10D0084FD20 /* RDAppDelegate.m in Sources */,
 				04E6DBCE1936D10D0084FD20 /* main.m in Sources */,
-				04E6DBD81936D10E0084FD20 /* RDFirstViewController.m in Sources */,
+				04E6DBD81936D10E0084FD20 /* RDAddPropertiesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
