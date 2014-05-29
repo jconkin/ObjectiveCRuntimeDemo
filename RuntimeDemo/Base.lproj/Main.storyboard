@@ -119,9 +119,19 @@
                     <view key="view" contentMode="scaleToFill" id="SUR-jT-B9F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mM3-dR-vLQ" customClass="RDRandomColorView">
+                                <rect key="frame" x="33" y="156" width="255" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Forward Invocation" image="forwardInvocation" id="AjN-cD-P4H"/>
+                    <connections>
+                        <outlet property="randomColorView" destination="mM3-dR-vLQ" id="whE-eE-yko"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U2B-4M-gKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

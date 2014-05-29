@@ -8,13 +8,13 @@
 
 #import "RDForwardInvocationViewController.h"
 
-
 @implementation RDForwardInvocationViewController
 
 - (void)viewDidAppear:(BOOL)animated {
     
     [super viewDidAppear:animated];
-    NSLog(@"temp_jconkin. View did appear");
+
+    [self.randomColorView setRandomBackgroundColor];
 }
 
 @end

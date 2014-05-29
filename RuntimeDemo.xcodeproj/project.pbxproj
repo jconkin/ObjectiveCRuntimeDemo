@@ -19,6 +19,7 @@
 		04E6DBDD1936D10E0084FD20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6DBDC1936D10E0084FD20 /* Images.xcassets */; };
 		04E6DC011936FBF60084FD20 /* UIViewController+RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */; };
 		04E6DC041937134D0084FD20 /* RDForwardInvocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DC031937134D0084FD20 /* RDForwardInvocationViewController.m */; };
+		04E6DC07193716F00084FD20 /* RDRandomColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DC06193716F00084FD20 /* RDRandomColorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RuntimeDemo.m"; sourceTree = "<group>"; };
 		04E6DC021937134D0084FD20 /* RDForwardInvocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDForwardInvocationViewController.h; sourceTree = "<group>"; };
 		04E6DC031937134D0084FD20 /* RDForwardInvocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDForwardInvocationViewController.m; sourceTree = "<group>"; };
+		04E6DC05193716F00084FD20 /* RDRandomColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRandomColorView.h; sourceTree = "<group>"; };
+		04E6DC06193716F00084FD20 /* RDRandomColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRandomColorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */,
 				04E6DC021937134D0084FD20 /* RDForwardInvocationViewController.h */,
 				04E6DC031937134D0084FD20 /* RDForwardInvocationViewController.m */,
+				04E6DC05193716F00084FD20 /* RDRandomColorView.h */,
+				04E6DC06193716F00084FD20 /* RDRandomColorView.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				04E6DBD21936D10D0084FD20 /* RDAppDelegate.m in Sources */,
 				04E6DC041937134D0084FD20 /* RDForwardInvocationViewController.m in Sources */,
 				04E6DBCE1936D10D0084FD20 /* main.m in Sources */,
+				04E6DC07193716F00084FD20 /* RDRandomColorView.m in Sources */,
 				04E6DBD81936D10E0084FD20 /* RDAddPropertiesViewController.m in Sources */,
 				04E6DC011936FBF60084FD20 /* UIViewController+RuntimeDemo.m in Sources */,
 			);
