@@ -97,15 +97,15 @@
 				04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */,
 				04E6DBD01936D10D0084FD20 /* RDAppDelegate.h */,
 				04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */,
+				04E6DC021937134D0084FD20 /* RDForwardInvocationViewController.h */,
+				04E6DC031937134D0084FD20 /* RDForwardInvocationViewController.m */,
+				04E6DC05193716F00084FD20 /* RDRandomColorView.h */,
+				04E6DC06193716F00084FD20 /* RDRandomColorView.m */,
 				04E6DBD91936D10E0084FD20 /* RDSwizzlingViewController.h */,
 				04E6DBDA1936D10E0084FD20 /* RDSwizzlingViewController.m */,
 				04E6DBC81936D10D0084FD20 /* Supporting Files */,
 				04E6DBFF1936FBF60084FD20 /* UIViewController+RuntimeDemo.h */,
 				04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */,
-				04E6DC021937134D0084FD20 /* RDForwardInvocationViewController.h */,
-				04E6DC031937134D0084FD20 /* RDForwardInvocationViewController.m */,
-				04E6DC05193716F00084FD20 /* RDRandomColorView.h */,
-				04E6DC06193716F00084FD20 /* RDRandomColorView.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
