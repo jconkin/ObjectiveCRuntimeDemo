@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--Swizzling View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
-                <viewController title="Second" id="QUy-BD-bpt" customClass="RDSecondViewController" sceneMemberID="viewController">
+                <viewController title="Second" id="QUy-BD-bpt" customClass="RDSwizzlingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FgS-U6-xeU"/>
                         <viewControllerLayoutGuide type="bottom" id="stI-4g-hlJ"/>

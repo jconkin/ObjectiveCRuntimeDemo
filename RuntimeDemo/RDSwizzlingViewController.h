@@ -1,5 +1,5 @@
 //
-//  RDSecondViewController.h
+//  RDSwizzlingViewController.h
 //  RuntimeDemo
 //
 //  Created by Jeremy Conkin on 5/28/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RDSecondViewController : UIViewController
+@interface RDSwizzlingViewController : UIViewController
 
 @end
