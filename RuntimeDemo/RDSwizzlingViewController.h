@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  This class demonstrates method swizzling - swapping the implementations of
+ *  two methods without swapping their selectors.
+ */
 @interface RDSwizzlingViewController : UIViewController
 
 @end

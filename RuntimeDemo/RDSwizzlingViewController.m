@@ -9,6 +9,7 @@
 #import "RDSwizzlingViewController.h"
 
 #import "RDAddPropertiesViewController.h"
+#import "RDForwardInvocationViewController.h"
 #import "UIViewController+RuntimeDemo.h"
 
 @interface RDSwizzlingViewController ()
@@ -46,6 +47,7 @@
 - (void)addViewControllerLabels {
     
     self.viewControllerClasses = @[[RDAddPropertiesViewController class],
+                                   [RDForwardInvocationViewController class],
                                    [RDSwizzlingViewController class]];
     
     self.classAppearedLabels = [NSMutableArray new];
@@ -78,12 +80,13 @@
     // Add constraints
     nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
     appearCountLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    appearCountLabel.textAlignment = NSTextAlignmentRight;
     NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(nameLabel, appearCountLabel);
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[nameLabel(==250)]"
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|-10-[nameLabel(==285)]"
                                                                       options:NSLayoutFormatDirectionLeadingToTrailing
                                                                       metrics:nil
                                                                         views:viewsDictionary]];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"[appearCountLabel(==30)]-10-|"
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"[appearCountLabel(==20)]-10-|"
                                                                       options:NSLayoutFormatDirectionLeadingToTrailing
                                                                       metrics:nil
                                                                         views:viewsDictionary]];
