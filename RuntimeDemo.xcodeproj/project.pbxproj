@@ -17,20 +17,8 @@
 		04E6DBD81936D10E0084FD20 /* RDAddPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */; };
 		04E6DBDB1936D10E0084FD20 /* RDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */; };
 		04E6DBDD1936D10E0084FD20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6DBDC1936D10E0084FD20 /* Images.xcassets */; };
-		04E6DBE41936D10E0084FD20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6DBE31936D10E0084FD20 /* XCTest.framework */; };
-		04E6DBE51936D10E0084FD20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6DBC11936D10D0084FD20 /* Foundation.framework */; };
-		04E6DBE61936D10E0084FD20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6DBC51936D10D0084FD20 /* UIKit.framework */; };
+		04E6DC011936FBF60084FD20 /* UIViewController+RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04E6DBE71936D10E0084FD20 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04E6DBB61936D10D0084FD20 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04E6DBBD1936D10D0084FD20;
-			remoteInfo = RuntimeDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04E6DBBE1936D10D0084FD20 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,8 +37,8 @@
 		04E6DBD91936D10E0084FD20 /* RDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDSecondViewController.h; sourceTree = "<group>"; };
 		04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDSecondViewController.m; sourceTree = "<group>"; };
 		04E6DBDC1936D10E0084FD20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		04E6DBE21936D10E0084FD20 /* RuntimeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E6DBE31936D10E0084FD20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04E6DBFF1936FBF60084FD20 /* UIViewController+RuntimeDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RuntimeDemo.h"; sourceTree = "<group>"; };
+		04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RuntimeDemo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +49,6 @@
 				04E6DBC41936D10D0084FD20 /* CoreGraphics.framework in Frameworks */,
 				04E6DBC61936D10D0084FD20 /* UIKit.framework in Frameworks */,
 				04E6DBC21936D10D0084FD20 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04E6DBDF1936D10E0084FD20 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04E6DBE41936D10E0084FD20 /* XCTest.framework in Frameworks */,
-				04E6DBE61936D10E0084FD20 /* UIKit.framework in Frameworks */,
-				04E6DBE51936D10E0084FD20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				04E6DBBE1936D10D0084FD20 /* RuntimeDemo.app */,
-				04E6DBE21936D10E0084FD20 /* RuntimeDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +78,6 @@
 				04E6DBC11936D10D0084FD20 /* Foundation.framework */,
 				04E6DBC31936D10D0084FD20 /* CoreGraphics.framework */,
 				04E6DBC51936D10D0084FD20 /* UIKit.framework */,
-				04E6DBE31936D10E0084FD20 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,13 +87,15 @@
 			children = (
 				04E6DBDC1936D10E0084FD20 /* Images.xcassets */,
 				04E6DBD31936D10E0084FD20 /* Main.storyboard */,
-				04E6DBD01936D10D0084FD20 /* RDAppDelegate.h */,
-				04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */,
 				04E6DBD61936D10E0084FD20 /* RDAddPropertiesViewController.h */,
 				04E6DBD71936D10E0084FD20 /* RDAddPropertiesViewController.m */,
+				04E6DBD01936D10D0084FD20 /* RDAppDelegate.h */,
+				04E6DBD11936D10D0084FD20 /* RDAppDelegate.m */,
 				04E6DBD91936D10E0084FD20 /* RDSecondViewController.h */,
 				04E6DBDA1936D10E0084FD20 /* RDSecondViewController.m */,
 				04E6DBC81936D10D0084FD20 /* Supporting Files */,
+				04E6DBFF1936FBF60084FD20 /* UIViewController+RuntimeDemo.h */,
+				04E6DC001936FBF60084FD20 /* UIViewController+RuntimeDemo.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -153,24 +131,6 @@
 			productReference = 04E6DBBE1936D10D0084FD20 /* RuntimeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04E6DBE11936D10E0084FD20 /* RuntimeDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04E6DBF61936D10E0084FD20 /* Build configuration list for PBXNativeTarget "RuntimeDemoTests" */;
-			buildPhases = (
-				04E6DBDE1936D10E0084FD20 /* Sources */,
-				04E6DBDF1936D10E0084FD20 /* Frameworks */,
-				04E6DBE01936D10E0084FD20 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04E6DBE81936D10E0084FD20 /* PBXTargetDependency */,
-			);
-			name = RuntimeDemoTests;
-			productName = RuntimeDemoTests;
-			productReference = 04E6DBE21936D10E0084FD20 /* RuntimeDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -180,11 +140,6 @@
 				CLASSPREFIX = RD;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jeremy Conkin";
-				TargetAttributes = {
-					04E6DBE11936D10E0084FD20 = {
-						TestTargetID = 04E6DBBD1936D10D0084FD20;
-					};
-				};
 			};
 			buildConfigurationList = 04E6DBB91936D10D0084FD20 /* Build configuration list for PBXProject "RuntimeDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -200,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				04E6DBBD1936D10D0084FD20 /* RuntimeDemo */,
-				04E6DBE11936D10E0084FD20 /* RuntimeDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +170,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04E6DBE01936D10E0084FD20 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -234,25 +181,11 @@
 				04E6DBD21936D10D0084FD20 /* RDAppDelegate.m in Sources */,
 				04E6DBCE1936D10D0084FD20 /* main.m in Sources */,
 				04E6DBD81936D10E0084FD20 /* RDAddPropertiesViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04E6DBDE1936D10E0084FD20 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				04E6DC011936FBF60084FD20 /* UIViewController+RuntimeDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04E6DBE81936D10E0084FD20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04E6DBBD1936D10D0084FD20 /* RuntimeDemo */;
-			targetProxy = 04E6DBE71936D10E0084FD20 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04E6DBCA1936D10D0084FD20 /* InfoPlist.strings */ = {
@@ -370,46 +303,6 @@
 			};
 			name = Release;
 		};
-		04E6DBF71936D10E0084FD20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RuntimeDemo.app/RuntimeDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RuntimeDemo/RuntimeDemo-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RuntimeDemoTests/RuntimeDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		04E6DBF81936D10E0084FD20 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RuntimeDemo.app/RuntimeDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RuntimeDemo/RuntimeDemo-Prefix.pch";
-				INFOPLIST_FILE = "RuntimeDemoTests/RuntimeDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -427,14 +320,6 @@
 			buildConfigurations = (
 				04E6DBF41936D10E0084FD20 /* Debug */,
 				04E6DBF51936D10E0084FD20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		04E6DBF61936D10E0084FD20 /* Build configuration list for PBXNativeTarget "RuntimeDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04E6DBF71936D10E0084FD20 /* Debug */,
-				04E6DBF81936D10E0084FD20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
