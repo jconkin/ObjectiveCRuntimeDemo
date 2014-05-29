@@ -61,8 +61,6 @@
     // self to call viewWillAppear:
     [self swizzle_viewWillAppear:animated];
     [[self class] setViewWillAppearCount:[NSNumber numberWithInt:[[[self class] viewWillAppearCount] intValue] + 1]];
-    
-    NSLog(@"temp_jconkin viewWillAppear: %@ %d", self, [[[self class] viewWillAppearCount] intValue]);
 }
 
 @end
