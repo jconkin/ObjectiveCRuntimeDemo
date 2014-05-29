@@ -28,8 +28,7 @@
     return signature;
 }
 
-- (void)forwardInvocation:(NSInvocation *)anInvocation
-{
+- (void)forwardInvocation:(NSInvocation *)anInvocation {
     // This class does not respond to the selector sent. Try the random color
     // view instead.
     if ([self.randomColorView respondsToSelector:[anInvocation selector]]) {

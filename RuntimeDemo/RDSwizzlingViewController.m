@@ -91,7 +91,7 @@
                                                                       metrics:nil
                                                                         views:viewsDictionary]];
     
-    NSString *heightConstraintString = [NSString stringWithFormat:@"V:|-%d-[nameLabel(==30)]", 180 + (35 * index)];
+    NSString *heightConstraintString = [NSString stringWithFormat:@"V:|-%d-[nameLabel(==30)]", (int)(180 + (35 * index))];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:heightConstraintString
                                                                       options:NSLayoutFormatDirectionLeadingToTrailing
                                                                       metrics:nil
